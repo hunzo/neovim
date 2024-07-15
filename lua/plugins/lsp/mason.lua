@@ -53,7 +53,7 @@ return {
 				"prettierd",
 				"stylua",
 				"ruff",
-				"yamlfmt",
+				"yamlfix",
 				-- "sql-formatter",
 				"beautysh",
 			},
