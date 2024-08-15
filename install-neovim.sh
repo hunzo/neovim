@@ -9,6 +9,7 @@ sudo ln -s /usr/bin/nvim-linux64/bin/nvim /usr/bin/nvim
 rm nvim-linux64.tar.gz
 
 sh -c "cat >> ~/.bashrc << EOF
+export EDITOR=nvim
 alias vim=nvim
 set -o vi
 EOF"
