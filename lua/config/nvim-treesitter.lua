@@ -3,11 +3,15 @@ local options = {
     "lua",
   },
   auto_install = true,
-  ignore_install = { "sh"  },
+  ignore_install = {
+    "bash",
+  },
   highlight = {
     enable = true,
     use_languagetree = true,
-    disable = { "sh" }
+    disable = {
+      "bash",
+    },
   },
   indent = {
     enable = true,
