@@ -29,4 +29,4 @@ keymap.set("n", "<c-l>", "<C-w>l", opts)
 
 -- nvim-neo-tree
 -- keymap.set("n", "<leader>bf", ":Neotree toggle buffers reveal float<CR>", opts)
-keymap.set("n", "<C-n>", ":Neotree toggle filesystem reveal right<CR>", opts)
+keymap.set("n", "<C-n>", ":Neotree toggle filesystem reveal float<CR>", opts)
